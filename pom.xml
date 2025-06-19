@@ -26,6 +26,20 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    
+    <!-- SonarQube settings -->
+    <sonar.projectKey>my-java-project</sonar.projectKey>
+    <sonar.projectName>My Java Project</sonar.projectName>
+    <sonar.projectVersion>1.0</sonar.projectVersion>
+    <sonar.host.url>http://13.204.77.11:9000</sonar.host.url>
+    <sonar.login>sqa_5ce2cb0b42bb0401cf395306f4e81c05c851f08f</sonar.login>
+</properties>
+
+             
     </dependencies>
 
     <build>
