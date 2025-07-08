@@ -26,11 +26,19 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
-
-
-
              
     </dependencies>
+
+          <distributionManagement>
+        <repository>
+            <id>nexus</id>
+            <url>http://3.111.170.229:8081/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nexus</id>
+            <url>http://3.111.170.229:8081/repository/maven-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <build>
         <plugins>
