@@ -29,16 +29,13 @@
              
     </dependencies>
 
-          <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <url>http://3.111.170.229:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <url>http://3.111.170.229:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+         <distributionManagement>
+    <repository>
+        <id>nexus</id>
+        <name>Nexus Releases</name>
+        <url>http://13.233.97.106:8081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
 
     <build>
         <plugins>
